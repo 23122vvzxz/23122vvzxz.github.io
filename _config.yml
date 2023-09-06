@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Prediction of bioaerosol concentration"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "Lab of Environmental Safety Assessment"
 description              : "An amazing website."
 url                      : "https://23122vvzxz.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
