@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElasticNet Prediction</title>
+</head>
+<body>
+    <h2>ElasticNet Model Prediction</h2>
+
+    <form action="/predict" method="post">
+        <input type="text" name="group" placeholder="Group" required>
+        <input type="text" name="mm" placeholder="Month" required>
+        <input type="text" name="tem" placeholder="Temperature" required>
+        <input type="text" name="rh" placeholder="Relative humdity" required>
+        <input type="text" name="pre" placeholder="Precipitation" required>
+        <input type="text" name="2d" placeholder="2-day accumulated precipitation" required>
+        <input type="text" name="pm10" placeholder="PM10" required>
+        <button type="submit">Predict</button>
+    </form>
+
+    <h3>{{ prediction_text }}</h3>
+</body>
+</html>
